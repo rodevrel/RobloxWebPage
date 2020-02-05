@@ -1,0 +1,28 @@
+/*Body*/
+body{ font-family: 'Montserrat', sans-serif;
+  z-index: 50;
+
+}
+
+/*Margins of Navbar*/
+.navbar{ margin-top: -64px;
+         margin-left: -32px;
+         margin-right: -32px;
+         margin-bottom: 200px;
+
+}
+
+/*Jumbotron Video*/
+#video-container{ height: 100vh;
+  margin-top: -64px;
+         margin-left: -32px;
+         margin-right: -32px;
+         margin-bottom: 200px;
+
+  
+}
+
+#main-video{ height: 100vh;
+
+  
+}
