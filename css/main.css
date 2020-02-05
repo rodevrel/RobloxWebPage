@@ -12,17 +12,9 @@ body{ font-family: 'Montserrat', sans-serif;
 
 }
 
-/*Jumbotron Video*/
-#video-container{ height: 100vh;
-  margin-top: -64px;
-         margin-left: -32px;
-         margin-right: -32px;
-         margin-bottom: 200px;
+
 
   
-}
+#main-video{ z-index: 0;
 
-#main-video{ height: 100vh;
-
-  
 }
