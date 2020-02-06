@@ -28,36 +28,44 @@
 
 <!--SECTIONS-->
 <body>
-  
-  <!--Jumbotron with a navbar inside-->
-  <section id = "jumbo-navbar">
 
-    <!--Jumbotron-->
-    <div class="jumbotron" id="video-container">
-      
-     
-
-   
-
-      <!--Navbar-->
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-          </div>
+  <!--Navbar-->
+  <section>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
         </div>
-      </nav>
+      </div>
+    </nav>
 
-       <!--Video thanks to: https://www.youtube.com/watch?v=7NaQlTb3ogg-->
-       <video id="main-video" loop="true" autoplay="true" muted="true" preload="true">
+  </section>
+
+
+  <!--Video Container-->
+    <!--Video thanks to: https://www.youtube.com/watch?v=7NaQlTb3ogg-->
+    <!--And: https://www.w3schools.com/howto/howto_css_fullscreen_video.asp-->
+    <section id="main-video">
+      <video id="main-video" loop="true" autoplay="true" muted="true" preload="true">
         <source src="media/trailer.mp4" type="video/mp4">
-        </video>
+      </video>
+
+    </section>
+
+
+
+
+
+  <!--Jumbotron-->
+  <div class="jumbotron" id="video-container">
+
+
 
 
       <h1 class="display-4">Hello, world!</h1>
@@ -67,11 +75,6 @@
       <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
       
     </div>
-
-
-
-
-  </section>
   
 
 

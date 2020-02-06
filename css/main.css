@@ -5,16 +5,19 @@ body{ font-family: 'Montserrat', sans-serif;
 }
 
 /*Margins of Navbar*/
-.navbar{ margin-top: -64px;
-         margin-left: -32px;
-         margin-right: -32px;
-         margin-bottom: 200px;
+.navbar{ margin-bottom: -30px;
 
 }
 
 
 
   
-#main-video{ z-index: 0;
+#main-video{ position: relative;
+             right: 0;
+             bottom: 0;
+             min-width: 100%;
+             min-height: 100%;
+             z-index: -100;
+
 
 }
