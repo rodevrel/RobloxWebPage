@@ -3,21 +3,3 @@ body{ font-family: 'Montserrat', sans-serif;
   z-index: 50;
 
 }
-
-/*Margins of Navbar*/
-.navbar{ margin-bottom: -30px;
-
-}
-
-
-
-  
-#main-video{ position: absolute;
-             right: 0;
-             bottom: 0;
-             min-width: 100%;
-             min-height: 100%;
-             z-index: -100;
-
-
-}
