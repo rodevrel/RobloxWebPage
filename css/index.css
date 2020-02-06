@@ -12,7 +12,7 @@ body{ font-family: 'Montserrat', sans-serif;
 
 
   
-#main-video{ position: relative;
+#main-video{ position: absolute;
              right: 0;
              bottom: 0;
              min-width: 100%;
