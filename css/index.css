@@ -1,5 +1,18 @@
-/*Body*/
-body{ font-family: 'Montserrat', sans-serif;
-  z-index: 50;
-
+/*Roblox Font thanks to ReclusionsHD: https://www.deviantart.com/reclusionshd/art/REOPENED-lol-ROBLOX-Font-2019-ReclusionsHD-656860139*/
+@font-face {
+  font-family: roblox-bold;
+  src: url(../fnts/roblox.ttf);
 }
+
+
+
+/*Body*/
+  body {font-family: 'Montserrat', sans-serif;
+    z-index: 50;
+
+  }
+
+/*Title*/
+  #extra-bold-font {font-family: 'roblox-bold',Arial, sans-serif;
+
+  }
