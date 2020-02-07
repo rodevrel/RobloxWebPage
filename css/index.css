@@ -8,11 +8,21 @@
 
 /*Body*/
   body {font-family: 'Montserrat', sans-serif;
-    z-index: 50;
-
+        background-color: black;
+        background-image: url(../img/index-cover.png);
+        background-position-x: center;
   }
+
+
+#blur-rectangle { background-color: rgba(0, 0, 0, 0.5);
+                  backdrop-filter: blur(20px);
+                  
+
+}
 
 /*Title*/
   #extra-bold-font {font-family: 'roblox-bold',Arial, sans-serif;
 
   }
+
+
