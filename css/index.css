@@ -14,14 +14,19 @@
   }
 
 
-#blur-rectangle { background-color: rgba(0, 0, 0, 0.5);
-                  backdrop-filter: blur(20px);
+/*Acrylic Rectangle*/
+#acrylic-rectangle { background-color: rgba(0, 0, 0, 0.5);
+                     /*Thanks to Mozilla: https://developer.mozilla.org/es/docs/Web/CSS/backdrop-filter*/
+                     backdrop-filter: blur(20px);
                   
 
 }
 
 /*Title*/
   #extra-bold-font {font-family: 'roblox-bold',Arial, sans-serif;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    color: rgba(255, 255, 255, 0.774);
 
   }
 
