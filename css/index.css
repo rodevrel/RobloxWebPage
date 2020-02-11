@@ -5,12 +5,11 @@
 }
 
 
-
 /*Body*/
-  body {font-family: 'Montserrat', sans-serif;
-        background-color: black;
-        background-image: url(../img/index-cover.png);
-        background-position-x: center;
+body { font-family: 'Montserrat', sans-serif;
+       background-color: black;
+       background-image: url(../img/index-cover.png);
+       background-position-x: center;
   }
 
 
@@ -22,12 +21,14 @@
 
 }
 
+
 /*Title*/
-  #extra-bold-font {font-family: 'roblox-bold',Arial, sans-serif;
-                    margin-left: 10px;
-                    margin-right: 10px;
-                    color: rgba(255, 255, 255, 0.774);
+#extra-bold-font { font-family: 'roblox-bold',Arial, sans-serif;
+                   margin-left: 10px;
+                   margin-right: 10px;
+                   color: rgba(255, 255, 255, 0.774);
 
-  }
+}
 
 
+/*Card Body*/
