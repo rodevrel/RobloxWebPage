@@ -27,16 +27,14 @@
 /* Classes */
 
   /* Background Section A */
-  .back-a { background-color: rgba(87, 29, 37, 0.8);
-            backdrop-filter: blur(10px);
+  .back-a { background-color: rgba(87, 29, 37, 0.925);
             padding-top: 80px;
             box-shadow: inset 0px 10px 40px -5px rgba(0,0,0,0.6);
 
   }
 
   /* Background Section B */
-  .back-b { background-color: rgba(29, 40, 87, 0.8);
-            backdrop-filter: blur(10px);
+  .back-b { background-color: rgba(29, 40, 87, 0.925);
             margin-bottom: 100px;
             padding-top: 80px;
             box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
