@@ -1,50 +1,67 @@
-/*Roblox Font thanks to ReclusionsHD: https://www.deviantart.com/reclusionshd/art/REOPENED-lol-ROBLOX-Font-2019-ReclusionsHD-656860139*/
-/*Backdrop-filter:blur Thanks to Mozilla: https://developer.mozilla.org/es/docs/Web/CSS/backdrop-filter */
-@font-face {
-  font-family: roblox-bold;
-  src: url(../fnts/roblox.ttf);
-}
+/*Fonts*/
 
+  /*Roblox Font thanks to ReclusionsHD: https://www.deviantart.com/reclusionshd/art/REOPENED-lol-ROBLOX-Font-2019-ReclusionsHD-656860139 */
+  /*Backdrop-filter:blur Thanks to Mozilla: https://developer.mozilla.org/es/docs/Web/CSS/backdrop-filter */
 
-/*Body*/
-body { font-family: 'Montserrat', sans-serif;
-       background-color: black;
-       background-image: url(../img/index-cover.png);
-       background-position-x: center;
+  @font-face { font-family: roblox-bold;
+    src: url(../fnts/roblox.ttf);
+  }
+
+/*--------------------------------------------------------*/
+
+/* Parts of the page */
+
+  /* Body */
+  body { background-color: #222222;
+         color: #b9b9b9;
+         background-image: url(../img/background.png);
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+
   }
 
 
-/*Title*/
-#extra-bold-font { font-family: 'roblox-bold',Arial, sans-serif;
-                   margin-left: 10px;
-                   margin-right: 10px;
-                   color: rgba(255, 255, 255, 0.774);
+/*--------------------------------------------------------*/
 
-}
+/* Classes */
 
+  /* Background Section A */
+  .back-a { background-color: rgba(87, 29, 37, 0.8);
+            backdrop-filter: blur(10px);
+            padding-top: 80px;
+            box-shadow: inset 0px 10px 40px -5px rgba(0,0,0,0.6);
 
-/*Jumbotron*/
-.jumbotron { background-color: rgba(0, 0, 0, 0.5);
-             border-radius: 0px;
-             backdrop-filter: blur(15px);
-             box-shadow: 0px 0px 60px -10px rgb(0, 0, 0, 0.5);
+  }
 
-}
-        
+  /* Background Section B */
+  .back-b { background-color: rgba(29, 40, 87, 0.8);
+            backdrop-filter: blur(10px);
+            margin-bottom: 100px;
+            padding-top: 80px;
+            box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
 
-/*Buttons*/
-.btn { background-color: rgba(0, 0, 0, 0.5);
-       color:rgba(255, 255, 255, 0.774);
-       border-radius: 0px;
-       border-color: black;
-       margin-top: 20px;
+  }
 
-}
+  /* Background Section Transparent */
+  .back-transparent { margin-bottom: 100px;
 
-.btn:hover { background-color: rgba(255, 255, 255, 0.6);
-             border-radius: 0px;
-             border-color: rgb(255, 255, 255);
-             box-shadow: 0px 0px 40px -10px rgba(255,255,255,1);
+  }
 
-}
+  /* Buttons */
+  .btn-card { background-color: rgb(185, 185, 185, 0.2);
+              border-radius: 20px;
+              width: 30%;
+              margin-left: 35%;
+              margin-right: 35%;
 
+              
+  }
+
+  /* Cards */
+  .card { background-color: rgba(34, 34, 34, 0.6);
+          color: #b9b9b9;
+          border-radius: 0px;
+          backdrop-filter: blur(10px);
+
+  }
