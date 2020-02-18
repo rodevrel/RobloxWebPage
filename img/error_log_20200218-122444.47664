@@ -1,0 +1,4 @@
+Log file created at: 2020/02/18 12:24:44
+Running on machine: DESKTOP-J2J5AUF
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0218 12:24:44.618680 12612 syncedmem.cpp:71] Check failed: error == cudaSuccess (2 vs. 0)  out of memory

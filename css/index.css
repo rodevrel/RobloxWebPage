@@ -1,7 +1,10 @@
-/*Fonts*/
 
-  /*Roblox Font thanks to ReclusionsHD: https://www.deviantart.com/reclusionshd/art/REOPENED-lol-ROBLOX-Font-2019-ReclusionsHD-656860139 */
-  /*Backdrop-filter:blur Thanks to Mozilla: https://developer.mozilla.org/es/docs/Web/CSS/backdrop-filter */
+  /* Roblox Font Thanks to ReclusionsHD: https://www.deviantart.com/reclusionshd/art/REOPENED-lol-ROBLOX-Font-2019-ReclusionsHD-656860139 */
+  /* Backdrop-filter:blur Thanks to Mozilla: https://developer.mozilla.org/es/docs/Web/CSS/backdrop-filter */
+  /* Firefox fall-back code Thanks to A2H: https://forums.asp.net/t/2038146.aspx?Need+to+set+CSS+based+on+Browser */
+
+
+/*Fonts and Icons*/
 
   @font-face { font-family: roblox-bold;
     src: url(../fnts/roblox.ttf);
@@ -25,6 +28,20 @@
 /*--------------------------------------------------------*/
 
 /* Classes */
+
+  /* NavBar Acrylic Background */
+  .bg-acrylic { background-color: rgba(17, 17, 17, 0.6);
+                backdrop-filter: blur(10px);
+
+  }
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+  @-moz-document url-prefix() { 
+    .bg-acrylic { background-color: rgb(34, 34, 34)
+    }
+  }
+
+
+
 
   /* Background Section A */
   .back-a { background-color: rgba(87, 29, 37, 0.925);
@@ -62,4 +79,10 @@
           border-radius: 0px;
           backdrop-filter: blur(10px);
 
+  }
+
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+  @-moz-document url-prefix() { 
+    .card { background-color: rgb(34, 34, 34)
+    }
   }
