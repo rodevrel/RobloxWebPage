@@ -4,8 +4,9 @@
   /* Firefox fall-back code Thanks to A2H: https://forums.asp.net/t/2038146.aspx?Need+to+set+CSS+based+on+Browser */
   /* Overflow-x: hidden Thanks to Rexcalabrese: https://css-tricks.com/forums/topic/horizontal-scroll-bar-issue-with-web-site-cutting-off-when-you-scroll-right/ */
   /* Emojis fallback for Chrome based browser Thanks to Google Noto Emojis: https://www.google.com/get/noto/help/emoji/ */
+  /* Little WebPage Right Margin Fix Thanks to Abraham Juliot: https://teamtreehouse.com/community/my-website-has-a-mysterious-bit-of-space-when-in-mobile-view-using-bootstrap */
 
-/*Fonts and Icons*/
+  /*Fonts and Icons*/
 
   @font-face { font-family: roblox-bold;
     src: url(../fnts/roblox.ttf);
@@ -149,6 +150,8 @@
   a:active {
     color: #b9b9b9;
   }
+
+  /* Avatar Card */
   #container-text { padding-top: 40px;
                     padding-bottom: 20px;
 
@@ -164,6 +167,11 @@
 /*--------------------------------------------------------*/
 
 /* Classes */
+
+  /* Little WebPage Right Margin Fix */
+  .row {margin: 0 !important;
+  }
+
 
   /* NavBar */
   .navbar { text-align: center;
