@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
   <!-- Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
@@ -28,39 +30,36 @@
   <header>
 
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-acrylic">
-      <a class="navbar-brand" href="#">rOblox corner</a>
       <img src="img/nav-logo.png" width="50" height="50" alt="logo">
+      <a id="" class="navbar-brand" href="#home">rOblox corner</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#whatis">What is Roblox</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
+
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link" href="#history">History</a>
           </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#people">Highlighted Projects</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#exp">My Avatar</a>
+          </li>
+
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
       </div>
     </nav>
 
@@ -70,12 +69,56 @@
   <!-- Sections of the page -->
 
     <!-- Home -->
-    <section id="home"></section>
+    <section id="home">
+      <div id="home-jumbo" class="jumbotron text-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <div id="back-of-jumbo">
+                <h1 id="jumbo-title" class="display-4">rOblox corner</h1>
+                <p>In this Website, you will learn the basis of Roblox and it's community</p>
+                <a class="btn btn-normal btn-lg" href="#" role="button">Let's go!</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- What is Roblox -->
     <section id="whatis">
       <div class="back-a">
+
+        <h1 class="page-sections-titles display-4">what is rOblox?</h1>
+
+        <div class="row">
+
+          <div id="contain-image" class="col-sm">
+            <img src="img/players.png" class="img-fluid">
+          </div>
+
+        </div>   
+
+        <div class="container">
+          <div class="row">
+
+            <div class="col-sm">
+              Roblox is a massively multiplayer online video game and game creation system that allows users to design their own games and play a wide variety of different types of games created by other users.
+              <br><br>
+            </div>
+
+            <div class="col-sm">
+              Games are coded under an Object Oriented Programming system utilizing the programming language Lua to manipulate the environment of the game.
+              <br><br>
+            </div>
+
+            <div class="col-sm">
+              Roblox allows players to buy, sell, and create virtual items. Robux is the virtual currency in Roblox that allows players to buy various items.
+              <br><br>
+            </div>
+          </div>
+        </div>
       
       </div>
 
@@ -87,13 +130,35 @@
     <section id="history">
       <div class="back-b">
 
+        <h1 class="page-sections-titles display-4">rOblox history</h1>
+
+        <!-- History Video -->
         <div class="container">
-
-
           <div class="row">
-  
+            <div class="col-sm">
+              <div id="history-video-container" class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/VL6rYNmfrjM" allowfullscreen></iframe>
+              </div>
+              
+            </div>
+
+          </div>
+        </div>
+        
+
+
+        <!-- History Text and images -->
+        <div><div class="container">
+          <div class="row">
             <div class="col-lg">
-              <p>In August 1989, David Baszucki founded Knowledge Revolution, a company which concentrated on educational physics and mechanical simulation software. There, he wrote a general-purpose physics simulator called Interactive Physics. He was the president of Knowledge Revolution until December 1998 and during this time has been joined first by Erik Cassel, then in 1997 by Keith Lucas. <br> <br>
+              <p>In August 1989, David Baszucki founded Knowledge Revolution, a company which concentrated on educational physics and mechanical simulation software. There, he wrote a general-purpose physics simulator called Interactive Physics. He was the president of Knowledge Revolution until December 1998 and during this time has been joined first by Erik Cassel, then in 1997 by Keith Lucas. <br> 
+              
+              <!-- IMG on a container-->
+              <div class="img-container">
+                <img class="img-history" src="img/david.png">
+              </div>
+
+              
 
               Knowledge Revolution was acquired for $20 million in January 1999 by MSC Software Corporation, for which David Baszucki served as vice president until he left with Erik Cassel to create ROBLOX, in 2004. They were soon joined by other employees of MSC Software.
               The first url, GoBlocks.com was purchased on December 2, 2003 and was renamed Dynablocks.com from December 12, 2003 to January 30, 2004. <br> <br>
@@ -122,6 +187,11 @@
               The site returned on April 2 and on sometime around April 4th all users who were involved in the hacking were terminated and IP banned.
               A trading system allowing users to trade limited and limited unique items was enabled for all premium members on July 12, 2012. <br> <br>
 
+              <!-- IMG on a container-->
+              <div class="img-container">
+                <img class="img-history" src="img/ipad-roblox.png">
+              </div>
+
               On December 11, 2012, Roblox started supporting mobile devices. <br> <br> <br>
             </p>
 
@@ -140,21 +210,21 @@
               </p>
 
             </div>
-  
-  
-  
           </div>
           <br>
-          
-        </div>
+        
+        </div> 
+      </div>
   
   
-      </section>
+    </section>
 
 
     <!-- Highlighted projects by people -->
     <section id="people">
       <div class="back-transparent">
+
+      <h1 id="background-title" class="page-sections-titles display-4">highlighted projects</h1>
         
       <!-- Cards with carousels-->
       <div class="container d-flex">
@@ -256,7 +326,7 @@
 
               <div class="card-body">
                 <h5 class="card-title">School History</h5>
-                <p class="card-text">You with or without a partner infiltrate a closed school where some people reported strange incidents and deaths.Will you survive to the fear and find all the keys?</p>
+                <p class="card-text">You with or without a partner infiltrate a closed school where some people reported strange incidents and deaths. Will you survive to the fear and find all the keys?</p>
                 <a href="https://www.roblox.com/games/3130178288/SCHOOL-HISTORY" target="_blank" class="btn btn-card">▶️</a>
               </div>
 
@@ -272,7 +342,7 @@
 
             <!-- Carousels with game previews -->
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HsofozjSTpY"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/HsofozjSTpY" allowfullscreen></iframe>
               
             </div>
 
@@ -294,7 +364,7 @@
 
             <!-- Carousels with game previews -->
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rt5tYxUTxUE"></iframe>
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Rt5tYxUTxUE" allowfullscreen></iframe>
               
             </div>
 
@@ -339,58 +409,142 @@
         <!--card-end-->
         <br>
 
-
-
-
           </div>
         </div>
       </div>
 
     </section>
 
-    <!-- My project -->
-    <section id="mine">
+    <!-- Personal experience -->
+    <section id="exp">
       <div class="back-a">
-      
+        <div id="personal-jumbo" class="jumbotron text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <div id="back-of-jumbo">
+
+                  <div id="container-text" >
+
+
+                  </div>
+
+                  <div class="row">
+
+                    <div class="col-md" id="center-vertical-text">
+                      <h3>This is my Roblox avatar.<br> <br>
+                      It's a water dragon with goggles.<br><br>
+                      You can be everything you want in Roblox,<br>
+                      even Nicki Minaj!<br> <br>
+
+                      </h3>
+                    </div>
+
+                    <div class="col-md">
+                      <a href="https://www.roblox.com/users/163443901/profile" target="_blank"><img class="img-fluid" id="center-vertical-profile" src="img/tide.png"></a>
+                      
+                    </div>
+                  </div>                    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
+
+      
+
 
     </section>
 
 
+    <!-- Footer -->
+    <footer>
+
+      <div class="container">
+        <div class="row">
+
+          <!-- Maps -->
+          <div class="col-12 col-lg-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3197.250108470297!2d-4.556652684375276!3d36.74056727875326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f1d2fec00015%3A0xa10982d4c497c887!2sIES%20Campanillas%20FP%20PTA!5e0!3m2!1ses!2ses!4v1575588926547!5m2!1ses!2ses" width="100%" height="438px" frameborder="0" style="border:0;" allowfullscreen="1"></iframe>
+          </div>
+
+          <!-- Contact data Form and Modal -->
+          <div class="col-12 col-lg-6">
+
+            <!-- Contact info -->
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item list-contact">Miguel Cano Santana</li>
+              <li class="list-group-item list-contact">1ºDAM</li>
+              <li class="list-group-item list-contact">I.E.S. Campanillas FP PTA</li>
+              <li class="list-group-item list-contact"> <a href="https://github.com/miguelcanosantana" target="_blank">Github Profile</a>
+
+              </li>
+            </ul>
+
+            <!-- Form -->
+            <form action="mailto:miguelcanosantana@gmail.com" method="GET" class="mx-auto" >
+              <div class="form-group">
+                <label for="exampleInputEmail1">Contact developer</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">When submitting you agree the Terms and conditions</small>
+              </div>
+
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalCenterTitle">Terms and Conditions</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>When submitting you agree the following Terms and Conditions:</p>
+                        <ul class="list-group">
+                          <li class="list-group-item">You will use the mailto protocol.</li>
+                          <li class="list-group-item">That protocol relays on your device.</li>
+                          <li class="list-group-item">No data can be stored on the serves as Github Pages only allows to preview content.</li>
+                          <li class="list-group-item">That's all 💁‍♂️</li>
+                        </ul>
+
+                     
+
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="submit" class="btn btn-normal">Lets go!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+            </form>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-normal" data-toggle="modal" data-target="#exampleModalCenter">
+              Send
+            </button>
+      
+          </div>
+
+
+
+          
 
 
 
 
 
 
+        </div>
+      </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </footer>
 
 
   
