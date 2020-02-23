@@ -23,6 +23,7 @@
   /* Body */
   body { background-color: #222222;
          color: #b9b9b9;
+         font-family: 'Ubuntu', sans-serif;
          background-image: url(../img/background.png);
          background-attachment: fixed;
          background-position: center;
