@@ -116,8 +116,18 @@
   #personal-jumbo { background-color: rgb(34, 34, 34, 0);
   }
 
-  #center-vertical-profile { background-color: rgb(34, 34, 34, 0);
+  #center-vertical-text { text-align: center;
+                          margin-left: 50px;
+                          margin-right: 50px;
+                          margin-bottom: 40px;
                              
+  }
+
+  @media (max-width: 520px) {
+    #center-vertical-text { margin-left: 20px;
+                            margin-right: 20px;
+
+    }
   }
 
   /* unvisited link */
