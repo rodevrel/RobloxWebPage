@@ -3,5 +3,6 @@
 <h2 style="text-align:center;font-family:arial;">Minimum robux for withdrawal: 600</h2>
 
 <script>
-  document.getElementById("amount").innerHTML = localStorage.getItem("amnt");
+  var amounts = localStorage.getItem("amnt");
+  document.getElementById("amount").innerHTML = amounts;
 </script>
