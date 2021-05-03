@@ -1,0 +1,343 @@
+
+  /* Roblox Font Thanks to ReclusionsHD: https://www.deviantart.com/reclusionshd/art/REOPENED-lol-ROBLOX-Font-2019-ReclusionsHD-656860139 */
+  /* Backdrop-filter:blur Thanks to Mozilla: https://developer.mozilla.org/es/docs/Web/CSS/backdrop-filter */
+  /* Firefox fall-back code Thanks to A2H: https://forums.asp.net/t/2038146.aspx?Need+to+set+CSS+based+on+Browser */
+  /* Overflow-x: hidden Thanks to Rexcalabrese: https://css-tricks.com/forums/topic/horizontal-scroll-bar-issue-with-web-site-cutting-off-when-you-scroll-right/ */
+  /* Emojis fallback for Chrome based browser Thanks to Google Noto Emojis: https://www.google.com/get/noto/help/emoji/ */
+  /* Little WebPage Right Margin Fix Thanks to Abraham Juliot: https://teamtreehouse.com/community/my-website-has-a-mysterious-bit-of-space-when-in-mobile-view-using-bootstrap */
+
+  /*Fonts and Icons*/
+
+  @font-face { font-family: roblox-bold;
+    src: url(../fnts/roblox.ttf);
+  }
+
+  @font-face { font-family: noto-emoji;
+    src: url(../fnts/NotoColorEmoji.ttf);
+  }
+
+/*--------------------------------------------------------*/
+
+/* Parts of the page */
+
+  /* HTML */
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+  /* Body */
+  body { background-color: #222222;
+         color: #b9b9b9;
+         font-family: 'Ubuntu', sans-serif;
+         background-image: url(../img/background.png);
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
+         overflow-x: hidden;
+
+  }
+
+  /* Footer */
+  footer { background-color: rgb(33, 34, 40);
+           padding-top: 40px;
+           padding-bottom: 40px;
+           box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
+
+  }
+
+  /* Container History section's video */
+  #history-video-container { margin-bottom: 40px;
+                             box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
+
+  }
+
+  /* Title of Highlighted Projects Background */
+  #background-title { background-color: rgba(11, 11, 14, 0.6);
+                      color: #b9b9b9;
+                      border-radius: 0px;
+                      backdrop-filter: blur(10px);
+                      box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.6);
+  }
+
+  /* Fix Incorrect display in small devices */
+  @media (max-width: 556px) {
+    #background-title { font-size: 40px;
+
+    }
+  }
+
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+  @-moz-document url-prefix() { 
+    #background-title { background-color: rgba(11, 11, 14, 0.8);
+    }
+  }
+
+
+  /* Jumbotron */
+  #home-jumbo { background-image: url("../img/jumbo.png") ;
+                background-size:cover;
+                background-repeat: no-repeat;
+                height: 100vh;
+                padding-top: 35vh; 
+
+  }
+  #back-of-jumbo { background-color: rgba(11, 11, 14, 0.8);
+                   backdrop-filter: blur(10px);
+                   padding-top: 20px;
+                   padding-bottom: 20px;
+                   padding-left: 20px;
+                   padding-right: 20px;
+
+  }
+
+
+  /* Home Image */
+  #contain-image { text-align: center;
+                   margin-left: 20px;
+                   margin-right: 20px;
+                   margin-top: 20px;
+
+  }
+
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+  @-moz-document url-prefix() { 
+    #back-of-jumbo { background-color: rgba(1, 1, 1, 0.925)
+    }
+  }
+
+
+  /* Card Jumbotron */
+  #jumbo-title { font-family: roblox-bold;
+  }
+
+  #center-jumbo { text-align: center;
+  }
+
+  #personal-jumbo { background-color: rgb(34, 34, 34, 0);              
+  }
+
+
+  #center-vertical-text { text-align: center;
+                          margin-left: 50px;
+                          margin-right: 50px;
+                          margin-bottom: 40px;
+                             
+  }
+
+  @media (max-width: 520px) {
+    #center-vertical-text { margin-left: 20px;
+                            margin-right: 20px;
+
+    }
+  }
+
+  /* unvisited link */
+  a:link {
+    color: #b9b9b9;
+  }
+
+  /* visited link */
+  a:visited {
+    color: #b9b9b9;
+  }
+
+  /* mouse over link */
+  a:hover {
+    color: #b9b9b9;
+  }
+
+  /* selected link */
+  a:active {
+    color: #b9b9b9;
+  }
+
+  /* Avatar Card */
+  #container-text { padding-top: 40px;
+                    padding-bottom: 20px;
+
+  }
+
+  @media (min-width: 520px) {
+    #center-vertical-profile { width: 300px;
+
+    }
+  }
+
+  /* Maps */
+  #maps { box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
+  }
+  
+
+/*--------------------------------------------------------*/
+
+/* Classes */
+
+  /* Little WebPage Right Margin Fix */
+  .row {margin: 0 !important;
+  }
+
+
+  /* NavBar */
+  .navbar { text-align: center;
+            
+  }
+
+
+  /* NavBar Acrylic Background */
+  .bg-acrylic { background-color: rgba(11, 11, 14, 0.6);
+                backdrop-filter: blur(10px);
+
+  }
+
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+  @-moz-document url-prefix() { 
+    .bg-acrylic { background-color: rgb(11, 11, 14, 0.9)
+    }
+  }
+
+
+  /* Navbar Brand */
+  .navbar-brand { font-family: roblox-bold;
+                  text-align: center;
+                  margin-left: 10px;
+                  margin-right: 10px;
+                  color: #b9b9b9;
+  }
+
+
+  /* Background Section A */
+  .back-a { background-color: rgba(87, 29, 37, 0.925);
+            padding-top: 80px;
+            padding-bottom: 80px;
+            margin-top: -32px;
+            box-shadow: inset 0px 10px 40px -5px rgba(0,0,0,0.6);
+
+  }
+
+  /* Background Section B */
+  .back-b { background-color: rgb(33, 34, 40);
+            margin-bottom: 40px;
+            padding-top: 80px;
+            box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
+
+  }
+
+
+  /* Background Section Transparent */
+  .back-transparent { margin-bottom: 100px;
+
+  }
+
+
+  /* Card Buttons */
+  .btn-card { background-color: rgb(185, 185, 185, 0.2);
+              border-radius: 20px;
+              width: 30%;
+              margin-left: 35%;
+              margin-right: 35%;          
+  }
+
+  /* Normal Buttons */
+  .btn-normal { background-color: rgb(185, 185, 185, 0.2);
+                color: #b9b9b9;
+                border-radius: 20px;
+                width: 30%;
+                margin-left: 35%;
+                margin-right: 35%;
+                border: #222222;          
+            }
+  .btn-normal:hover { color: #ffffff;
+                     
+
+  }
+
+  /* Cards */
+  .card { background-color: rgba(11, 11, 14, 0.6);
+          color: #b9b9b9;
+          border-radius: 0px;
+          backdrop-filter: blur(10px);
+          box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.6);
+
+  }
+
+
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+  @-moz-document url-prefix() { 
+    .card { background-color: rgba(34, 34, 34, 0.8)
+    }
+  }
+
+
+  /* IMGs from History */
+  .img-history { margin-top: 12px;
+                 margin-bottom: 22px;
+                 margin-left: 10px;
+                 margin-right: 10px;
+                 box-shadow: 0px 10px 40px -5px rgba(0,0,0,0.6);
+
+  }
+
+  .img-container { width: cover;
+                   text-align: center;
+  }
+
+  @media (max-width: 520px) {
+    .img-history { width: 300px;
+
+    }
+  }
+
+
+  /* Page Sections Titles */
+  .page-sections-titles { text-align: center;
+                          margin-bottom: 40px;
+                          margin-left: 20px;
+                          margin-right: 20px;
+                          font-family: roblox-bold;
+
+  }
+
+  /* Modal */
+  .modal { background-color: rgba(1, 1, 1, 0);
+           backdrop-filter: blur(10px);
+
+  }
+
+  /* Firefox doesn't have enabled backdrop-filter by default, this code is a fallback for make navbar opaque */
+    @-moz-document url-prefix() { 
+      .modal { background-color: rgba(1, 1, 1, 0.4);
+      }
+    }
+
+  /* Modal Background */
+  .modal-content { background-color: rgba(1, 1, 1, 0.5);
+  }
+
+  .list-group-item { background-color: rgba(1, 1, 1, 0.5);
+                      backdrop-filter: blur(5px);
+
+  }
+
+
+  /* Close Modal Icon */
+  .close {
+    color: #b9b9b9; 
+    opacity: 1;
+  }
+
+  .close:hover {
+    color: #b9b9b9; 
+    opacity: 1;
+  }
+
+  /* List of Contact zone */
+  .list-contact { background-color: rgba(0, 0, 0, 0);
+                  margin-bottom: 10px;
+
+  }
+
+  /* Emojis fallback for Chrome based browser */
+  .noto-emoji { font-family: 'noto-emoji', sans-serif;
+  }
+
