@@ -1,5 +1,9 @@
 <meta http-equiv = "refresh" content = "2; url = https://step.com/r/HLGWQ" />
 
 <script>
-  localStorage.amnt = Number(localStorage.amnt) + 5;
+    if (localStorage.amnt) {
+      localStorage.amnt = Number(localStorage.amnt) + 5;
+    } else {
+      localStorage.amnt = 1;
+    }
 </script>
